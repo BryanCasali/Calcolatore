@@ -2,6 +2,9 @@ def somma(a, b):
 	return a + b
 
 def dividi (a,b):
+	if b == 0:
+		print("Errore: impossibilie dividere per 0.")
+		return None
 	return a / b
 
 if __name__== "__main__":
